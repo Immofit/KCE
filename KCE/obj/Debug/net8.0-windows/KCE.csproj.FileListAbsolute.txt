@@ -1,0 +1,16 @@
+C:\Users\Даниил\source\repos\KCE\bin\Debug\net8.0-windows\KCE.exe
+C:\Users\Даниил\source\repos\KCE\bin\Debug\net8.0-windows\KCE.deps.json
+C:\Users\Даниил\source\repos\KCE\bin\Debug\net8.0-windows\KCE.runtimeconfig.json
+C:\Users\Даниил\source\repos\KCE\bin\Debug\net8.0-windows\KCE.dll
+C:\Users\Даниил\source\repos\KCE\bin\Debug\net8.0-windows\KCE.pdb
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.Form1.resources
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.csproj.GenerateResource.cache
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.AssemblyInfoInputs.cache
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.AssemblyInfo.cs
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.dll
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\refint\KCE.dll
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.pdb
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\KCE.genruntimeconfig.cache
+C:\Users\Даниил\source\repos\KCE\obj\Debug\net8.0-windows\ref\KCE.dll
