@@ -21,7 +21,7 @@
             this.lblInput = new System.Windows.Forms.Label();
             this.pictureBoxScheme = new System.Windows.Forms.PictureBox();
 
-            // ========== НАСТРОЙКА ФОРМЫ ==========
+            
             this.ClientSize = new System.Drawing.Size(900, 700);
             this.Text = "Кинематика: Задание №2 (Команда Акатцуки)";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -35,7 +35,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Location = new System.Drawing.Point(20, 15);
 
-            // ========== ЛЕВАЯ КОЛОНКА (Условие + БОЛЬШАЯ КАРТИНКА) ==========
+            
 
             // Блок констант
             this.lblConstants = new System.Windows.Forms.Label();
@@ -66,27 +66,27 @@
             this.btnCalculate.BackColor = System.Drawing.Color.LightBlue;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
 
-            // ========== ОЧЕНЬ БОЛЬШОЕ ИЗОБРАЖЕНИЕ ==========
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheme)).BeginInit();
             this.pictureBoxScheme.Location = new System.Drawing.Point(20, 315);
-            this.pictureBoxScheme.Size = new System.Drawing.Size(260, 350); // БОЛЬШАЯ КАРТИНКА: 260x350
+            this.pictureBoxScheme.Size = new System.Drawing.Size(260, 350); 
             this.pictureBoxScheme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxScheme.ImageLocation = "scheme.png";
             this.pictureBoxScheme.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxScheme.BackColor = System.Drawing.Color.White;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScheme)).EndInit();
 
-            // ========== ПРАВАЯ КОЛОНКА (КОМПАКТНАЯ ТАБЛИЦА) ==========
+           
             this.dgvResults = new System.Windows.Forms.DataGridView();
             this.dgvResults.Location = new System.Drawing.Point(300, 55);
-            this.dgvResults.Size = new System.Drawing.Size(580, 450); // УМЕНЬШЕННАЯ ТАБЛИЦА
+            this.dgvResults.Size = new System.Drawing.Size(580, 450); 
             this.dgvResults.AllowUserToAddRows = false;
             this.dgvResults.ReadOnly = true;
             this.dgvResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.dgvResults.RowHeadersWidth = 25;
             this.dgvResults.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.dgvResults.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvResults.ScrollBars = System.Windows.Forms.ScrollBars.Vertical; // Только вертикальная прокрутка
+            this.dgvResults.ScrollBars = System.Windows.Forms.ScrollBars.Vertical; 
 
             // Статус
             this.lblStatus = new System.Windows.Forms.Label();
@@ -116,4 +116,5 @@
         private System.Windows.Forms.Label lblInput;
         private System.Windows.Forms.PictureBox pictureBoxScheme;
     }
+
 }
