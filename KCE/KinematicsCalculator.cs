@@ -10,10 +10,7 @@ namespace KinematicsTask
         public const double R3_BIG = 96.0;    // Большой цилиндр блока 3
         public const double R3_SMALL = 73.0;  // Малый цилиндр блока 3
 
-        // Уравнение движения груза 1: S(t) = A*t² + B*t + C (мм)
-        // ВНИМАНИЕ: Эти значения должен задать преподаватель!
-        // В вашем отчете Таблица 2.2 не заполнена
-        // Пример: если , то:
+       
         public const double EQ_A = 108.0;   // Коэффициент при t²
         public const double EQ_B = 0.0;   // Коэффициент при t
         public const double EQ_C = 28.0;    // Свободный член
@@ -63,7 +60,7 @@ namespace KinematicsTask
             res.A1 = 2 * EQ_A;
 
             // ========== БЛОК 2 ==========
-            // По условию: груз 1 связан с МАЛЫМ цилиндром блока 2 (R2_SMALL)
+           
             // Формула (2.7): V_A = V₁
             res.Va = res.V1;
 
@@ -84,7 +81,7 @@ namespace KinematicsTask
             res.Atb = res.Epsilon2 * R2_BIG;
 
             // ========== БЛОК 3 ==========
-            // По условию: блок 2 (большой) взаимодействует с блоком 3 (малый) в точке B
+          
             // Формула (2.15): ω₃ = V_B / R3_SMALL
             res.Omega3 = res.Vb / R3_SMALL;
 
@@ -113,4 +110,5 @@ namespace KinematicsTask
             return res;
         }
     }
+
 }
